@@ -1,0 +1,123 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(217deg, 54%, 11%);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 375px;
+  background-color: hsl(216deg, 50%, 16%);
+  border-radius: 25px;
+}
+.card__shadow {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin-top: 25px;
+}
+.card__img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10%;
+  cursor: pointer;
+}
+.card__icon {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  border-radius: 10%;
+  background-image: url(../images/icon-view.svg);
+  background-size: cover;
+  background-position: center;
+  background-size: 30%;
+  background-repeat: no-repeat;
+  background-color: rgba(244, 233, 233, 0.394);
+}
+.card__body {
+  padding: 20px;
+}
+.card__title {
+  color: hsl(178deg, 100%, 50%);
+}
+.card__title span {
+  cursor: pointer;
+}
+.card__title span:hover {
+  color: hsl(0deg, 0%, 100%);
+}
+.card__text {
+  font-size: 18px;
+  color: hsl(215deg, 51%, 70%);
+}
+.card__price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.card__value {
+  color: hsl(178deg, 100%, 50%);
+  font-size: 18px;
+}
+.card__value img {
+  width: 10px;
+  margin-right: 10px;
+}
+.card__day {
+  color: hsl(215deg, 51%, 70%);
+  font-size: 18px;
+}
+.card__day img {
+  width: 18px;
+  margin-right: 10px;
+}
+.card__line {
+  width: 100%;
+  height: 1px;
+  background-color: hsl(215deg, 32%, 27%);
+}
+.card__person {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.card__imgPerson {
+  width: 25px;
+  height: 25px;
+  border: 1px solid hsl(0deg, 0%, 100%);
+  border-radius: 50%;
+}
+.card__name {
+  margin-left: 15px;
+  color: hsl(215deg, 51%, 70%);
+  font-size: 18px;
+}
+.card__name span {
+  color: hsl(178deg, 100%, 50%);
+  cursor: pointer;
+}
+.card__name span:hover {
+  color: hsl(0deg, 0%, 100%);
+}
+
+.card__img:hover + div {
+  display: block;
+}
+
+.attribution {
+  margin-top: 25px;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}/*# sourceMappingURL=style.css.map */

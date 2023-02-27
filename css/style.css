@@ -5,7 +5,7 @@ body {
   align-items: center;
   height: 100vh;
   font-family: "Outfit", sans-serif;
-  background-color: hsl(217deg, 54%, 11%);
+  background-color: hsl(217, 54%, 11%);
 }
 
 .card {
@@ -14,7 +14,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 375px;
-  background-color: hsl(216deg, 50%, 16%);
+  background-color: hsl(216, 50%, 16%);
   border-radius: 25px;
 }
 .card__shadow {
@@ -47,17 +47,17 @@ body {
   padding: 20px;
 }
 .card__title {
-  color: hsl(178deg, 100%, 50%);
+  color: hsl(178, 100%, 50%);
 }
 .card__title span {
   cursor: pointer;
 }
 .card__title span:hover {
-  color: hsl(0deg, 0%, 100%);
+  color: hsl(0, 0%, 100%);
 }
 .card__text {
   font-size: 18px;
-  color: hsl(215deg, 51%, 70%);
+  color: hsl(215, 51%, 70%);
 }
 .card__price {
   display: flex;
@@ -65,7 +65,7 @@ body {
   justify-content: space-between;
 }
 .card__value {
-  color: hsl(178deg, 100%, 50%);
+  color: hsl(178, 100%, 50%);
   font-size: 18px;
 }
 .card__value img {
@@ -73,7 +73,7 @@ body {
   margin-right: 10px;
 }
 .card__day {
-  color: hsl(215deg, 51%, 70%);
+  color: hsl(215, 51%, 70%);
   font-size: 18px;
 }
 .card__day img {
@@ -83,7 +83,7 @@ body {
 .card__line {
   width: 100%;
   height: 1px;
-  background-color: hsl(215deg, 32%, 27%);
+  background-color: hsl(215, 32%, 27%);
 }
 .card__person {
   display: flex;
@@ -93,20 +93,20 @@ body {
 .card__imgPerson {
   width: 25px;
   height: 25px;
-  border: 1px solid hsl(0deg, 0%, 100%);
+  border: 1px solid hsl(0, 0%, 100%);
   border-radius: 50%;
 }
 .card__name {
   margin-left: 15px;
-  color: hsl(215deg, 51%, 70%);
+  color: hsl(215, 51%, 70%);
   font-size: 18px;
 }
 .card__name span {
-  color: hsl(178deg, 100%, 50%);
+  color: hsl(178, 100%, 50%);
   cursor: pointer;
 }
 .card__name span:hover {
-  color: hsl(0deg, 0%, 100%);
+  color: hsl(0, 0%, 100%);
 }
 
 .card__img:hover + div {
@@ -119,5 +119,5 @@ body {
   text-align: center;
 }
 .attribution a {
-  color: hsl(228deg, 45%, 44%);
+  color: hsl(228, 45%, 44%);
 }/*# sourceMappingURL=style.css.map */
